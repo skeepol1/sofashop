@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,500&family=Roboto+Slab:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero-container{
+    width: 100%;
+    height: 100vh;
+    border: 2px solid red;
+    display: flex;
+}
+
+.hero-container .sofa-left{
+    width: 10%;
+    height: 100%;
+    border: 2px solid green;
+}
+.hero-container .sofa-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ .sofa-icon {
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.hero-container .sofa-left .sofa-left-social{
+    border: 2px solid red;
+}
+.sofa-left .sofa-left-social ul{
+    list-style: none;
+
+}
+.hero-container .sofa-middle{
+    width: 15%;
+    height: 100%;
+    border: 2px solid blue;
+}
+
+.sofa-middle .sofa-middle-heading {
+    border: 2px solid red;
+    margin-top: 1.3rem;
+    /* font-family: 'Roboto Slab', serif; */
+}
+.sofa-middle .sofa-middle-heading span{
+    color: #E48A00;
+
+}
+.hero-container .sofa-right{
+    width: 75%;
+    height: 90%;
+    border: 2px solid black;
+    background: url(./img/img1.jpg)no-repeat center center/cover;
+}
+.hero-container .sofa-right ul{
+    display: flex;
+    border: 2px solid blue;
+    justify-content: right;
+    /* background-color: white; */
+}
+.hero-container .sofa-right ul li {
+    list-style: none;
+    border: 2px solid red;
+    background-color: white;
+    padding: 10px;
+
+}
+.sofa-right ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+.sofa-right .sofa-text-box{
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    line-height: 50px;
+}
+.sofa-right .sofa-text-box h2{
+    border: 2px solid red;
+    font-size: 55px;
+    font-weight: 700;
+    color:white;
+  
+font-family: 'Roboto Slab', serif;
+}
+.sofa-right .sofa-text-box h1{
+    border: 2px solid blue;
+    margin-left: 2.3rem;
+    font-size: 55px;
+    font-weight: 700;
+    color: rgb(13, 13, 14);
+    
+font-family: 'Roboto Slab', serif;
+}
