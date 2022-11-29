@@ -58,13 +58,13 @@
 }
 .hero-container .sofa-right ul{
     display: flex;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     justify-content: right;
     /* background-color: white; */
 }
 .hero-container .sofa-right ul li {
     list-style: none;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-color: white;
     padding: 10px;
 
@@ -82,7 +82,7 @@
     line-height: 50px;
 }
 .sofa-right .sofa-text-box h2{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     font-size: 55px;
     font-weight: 700;
     color:white;
@@ -90,7 +90,7 @@
 font-family: 'Roboto Slab', serif;
 }
 .sofa-right .sofa-text-box h1{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     margin-left: 2.3rem;
     font-size: 55px;
     font-weight: 700;
